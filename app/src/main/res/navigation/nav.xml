@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/index">
+    <fragment
+        android:id="@+id/index"
+        android:name="com.example.a1230.Index"
+        android:label="fragment_index"
+        tools:layout="@layout/fragment_index" >
+        <action
+            android:id="@+id/action_index_to_phoneBook"
+            app:destination="@id/phoneBook" />
+        <action
+            android:id="@+id/action_index_to_imageGridFragment"
+            app:destination="@id/imageGridFragment" />
+        <action
+            android:id="@+id/action_index_to_departmentSelectFragment"
+            app:destination="@id/departmentSelectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/phoneBook"
+        android:name="com.example.a1230.PhoneBook"
+        android:label="phonebook"
+        tools:layout="@layout/phonebook" >
+        <action
+            android:id="@+id/action_phoneBook_to_infoPage"
+            app:destination="@id/infoPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/imageGridFragment"
+        android:name="com.example.a1230.ImageGridFragment"
+        android:label="ImageGridFragment" >
+        <action
+            android:id="@+id/action_imageGridFragment_to_imageFragment2"
+            app:destination="@id/imageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/todoListFragment"
+        android:name="com.example.a1230.TodoListFragment"
+        android:label="TodoListFragment" />
+    <fragment
+        android:id="@+id/departmentSelectFragment"
+        android:name="com.example.a1230.DepartmentSelectFragment"
+        android:label="DepartmentSelectFragment" >
+        <action
+            android:id="@+id/action_departmentSelectFragment_to_todoListFragment"
+            app:destination="@id/todoListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoPage"
+        android:name="com.example.a1230.InfoPage"
+        android:label="infopage"
+        tools:layout="@layout/infopage" />
+    <fragment
+        android:id="@+id/imageFragment"
+        android:name="com.example.a1230.ImageFragment"
+        android:label="ImageFragment" />
+</navigation>

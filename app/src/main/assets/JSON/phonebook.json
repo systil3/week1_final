@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Frankenstein Monster (Universal Monsters)",
+    "image_path": "https://static.wikia.nocookie.net/moviedatabase/images/6/68/Frankenstein%27s_Monster_%28Universal_Classics%29_001.jpg/revision/latest/scale-to-width-down/250?cb=20220215043433",
+    "gender": "male",
+    "phone": "+1 970-357-5574",
+    "department": 6
+  },
+  {
+    "id": 2,
+    "name": "Alice Abernathy",
+    "image_path": "https://static.wikia.nocookie.net/moviedatabase/images/6/60/Alice_-_Resident_Evil_001.jpg/revision/latest/scale-to-width-down/250?cb=20150201180112",
+    "gender": "female",
+    "phone": "+1 108-635-4815",
+    "department": 4
+  },
+  {
+    "id": 3,
+    "name": "Bill Hudley",
+    "image_path": "https://static.wikia.nocookie.net/moviedatabase/images/0/0f/Bill_Hudley.jpg/revision/latest/scale-to-width-down/250?cb=20151121142916",
+    "gender": "male",
+    "phone": "+1 478-952-6678",
+    "department": 7
+  },
+  {
+    "id": 4,
+    "name": "Ellen Ripley",
+    "image_path": "https://static.wikia.nocookie.net/moviedatabase/images/b/bf/Ellen_Ripley_001.jpg/revision/latest/scale-to-width-down/250?cb=20151130130916",
+    "gender": "female",
+    "phone": "+1 550-028-8067",
+    "department": 7
+  },
+  {
+    "id": 5,
+    "name": "Heywood R. Floyd",
+    "image_path": "https://static.wikia.nocookie.net/moviedatabase/images/7/74/Heywood_R._Floyd.jpg/revision/latest/scale-to-width-down/250?cb=20140125193529",
+    "gender": "male",
+    "phone": "+1 845-121-2043",
+    "department": 4
+  },
+  {
+    "id": 6,
+    "name": "Erin",
+    "image_path": "https://static.wikia.nocookie.net/moviedatabase/images/a/a2/Erin_-_TCM_002.jpg/revision/latest/scale-to-width-down/200?cb=20150527224232",
+    "gender": "others",
+    "phone": "+1 286-941-7648",
+    "department": 6
+  },
+  {
+    "id": 7,
+    "name": "Alice Moore",
+    "image_path": "https://static.wikia.nocookie.net/moviedatabase/images/3/32/Alice_Moore.jpg/revision/latest/scale-to-width-down/250?cb=20160501200645",
+    "gender": "female",
+    "phone": "+1 847-892-3141",
+    "department": 4
+  },
+  {
+    "id": 8,
+    "name": "Harry Potter",
+    "image_path": "https://static.wikia.nocookie.net/moviedatabase/images/c/c7/Harry_Potter_001.jpg/revision/latest/scale-to-width-down/250?cb=20160420183049",
+    "gender": "others",
+    "phone": "+1 322-955-7294",
+    "department": 7
+  },
+  {
+    "id": 9,
+    "name": "Dan Smithson",
+    "image_path": "https://static.wikia.nocookie.net/moviedatabase/images/0/0f/Dan_Smithson.jpg/revision/latest/scale-to-width-down/250?cb=20140507134326",
+    "gender": "male",
+    "phone": "+1 986-029-2535",
+    "department": 0
+  },
+  {
+    "id": 10,
+    "name": "Jonathan Clemens",
+    "image_path": "https://static.wikia.nocookie.net/moviedatabase/images/0/05/Jonathan_Clemens_002.jpg/revision/latest/scale-to-width-down/250?cb=20151122230045",
+    "gender": "male",
+    "phone": "+1 014-301-5435",
+    "department": 6
+  },
+  {
+    "id": 11,
+    "name": "Edward Hyde",
+    "image_path": "https://static.wikia.nocookie.net/moviedatabase/images/4/4b/Edward_Hyde_%28Paramount%29.jpg/revision/latest/scale-to-width-down/225?cb=20150407132616",
+    "gender": "others",
+    "phone": "+1 655-515-9548",
+    "department": 5
+  },
+  {
+    "id": 12,
+    "name": "Drayton Sawyer",
+    "image_path": "https://static.wikia.nocookie.net/moviedatabase/images/b/bb/Drayton_Sawyer_001.jpg/revision/latest/scale-to-width-down/250?cb=20150807140505",
+    "gender": "male",
+    "phone": "+1 075-797-7763",
+    "department": 5
+  },
+  {
+    "id": 13,
+    "name": "Geoffrey T. Spaulding",
+    "image_path": "https://static.wikia.nocookie.net/moviedatabase/images/0/03/Geoffrey_Spaulding.jpg/revision/latest/scale-to-width-down/250?cb=20151105194532",
+    "gender": "male",
+    "phone": "+1 084-833-9547",
+    "department": 1
+  },
+  {
+    "id": 14,
+    "name": "Blonde, The",
+    "image_path": "https://static.wikia.nocookie.net/moviedatabase/images/5/51/The_Blonde_001.jpg/revision/latest/scale-to-width-down/150?cb=20160919143747",
+    "gender": "others",
+    "phone": "+1 726-227-7582",
+    "department": 6
+  },
+  {
+    "id": 15,
+    "name": "Kim Boggs",
+    "image_path": "https://static.wikia.nocookie.net/moviedatabase/images/4/46/Kim_Boggs.jpg/revision/latest/scale-to-width-down/250?cb=20140220154132",
+    "gender": "female",
+    "phone": "+1 064-653-8093",
+    "department": 1
+  },
+  {
+    "id": 16,
+    "name": "Alice Johnson",
+    "image_path": "https://static.wikia.nocookie.net/moviedatabase/images/8/82/Alice_Johnson.jpg/revision/latest/scale-to-width-down/250?cb=20150309133946",
+    "gender": "female",
+    "phone": "+1 352-265-5615",
+    "department": 3
+  },
+  {
+    "id": 17,
+    "name": "Jack Torrance",
+    "image_path": "https://static.wikia.nocookie.net/f92890d4-8291-4b19-bb63-89f46d25a5f8",
+    "gender": "others",
+    "phone": "+1 390-728-5516",
+    "department": 0
+  },
+  {
+    "id": 18,
+    "name": "Angel Myers",
+    "image_path": "https://static.wikia.nocookie.net/moviedatabase/images/d/de/Laurie_Strode_%28Halloween_2007%29.jpg/revision/latest/scale-to-width-down/250?cb=20140329195006",
+    "gender": "female",
+    "phone": "+1 529-626-9242",
+    "department": 2
+  },
+  {
+    "id": 19,
+    "name": "Donny Martin",
+    "image_path": "https://static.wikia.nocookie.net/moviedatabase/images/e/e6/Donny_Martin.jpg/revision/latest/scale-to-width-down/250?cb=20160531003953",
+    "gender": "male",
+    "phone": "+1 188-464-9150",
+    "department": 5
+  },
+  {
+    "id": 20,
+    "name": "Gustav Niemann",
+    "image_path": "https://static.wikia.nocookie.net/moviedatabase/images/2/2e/Gustav_Niemann.jpg/revision/latest/scale-to-width-down/250?cb=20150124161256",
+    "gender": "male",
+    "phone": "+1 990-678-8625",
+    "department": 7
+  }
+]

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/main_button"
+    android:layout_marginBottom="5dp">
+
+    <!-- Todo 항목을 표시하는 TextView -->
+    <CheckBox
+        android:id="@+id/todoCompletedCheckBox"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="5dp"
+        android:gravity="center|center_vertical"
+        android:focusable="false"
+        android:checked="false"
+        android:buttonTint="#6587FF"/>
+
+    <EditText
+        android:id="@+id/todoEditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="2dp"
+        android:layout_weight="1"
+        android:hint="..."
+        android:textColor="#000000"
+        android:textColorHint="#525252"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/customized_confirm_button"
+        android:foreground="?android:attr/selectableItemBackground"/>
+
+
+<!-- 삭제 버튼 -->
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:background="@drawable/customized_delete_button"
+        android:foreground="?android:attr/selectableItemBackground"/>
+
+
+</LinearLayout>

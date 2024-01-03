@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <!-- 첫 번째 줄 -->
+
+        <TextView
+            android:id="@+id/department_select_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_columnSpan="2"
+            android:gravity="center"
+            android:text="Select your department"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:paddingTop="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id = "@+id/management_button"
+            android:background="@drawable/department_select_button"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:text="Management"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="16dp"
+            android:gravity="center|left"
+            android:paddingLeft="35dp"
+            android:layout_marginTop = "20dp"
+            android:layout_marginBottom = "30dp"
+            android:layout_marginRight="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/general_affairs_button"
+            app:layout_constraintTop_toBottomOf="@+id/department_select_title"
+            app:layout_constraintBottom_toTopOf="@+id/accounting_button"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id = "@+id/general_affairs_button"
+            android:background="@drawable/department_select_button"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:text="General Affairs"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="16dp"
+            android:gravity="center|left"
+            android:paddingLeft="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop = "20dp"
+            android:layout_marginBottom = "30dp"
+            app:layout_constraintStart_toEndOf="@+id/management_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/department_select_title"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id = "@+id/accounting_button"
+            android:background="@drawable/department_select_button"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:text="Accounting"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="16dp"
+            android:gravity="center|left"
+            android:paddingLeft="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop = "30dp"
+            android:layout_marginBottom = "30dp"
+            android:layout_marginRight="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/management_button"
+            app:layout_constraintEnd_toStartOf="@+id/machinary_button"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id = "@+id/machinary_button"
+            android:background="@drawable/department_select_button"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:text="Machinary"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="16dp"
+            android:gravity="center|left"
+            android:paddingLeft="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop = "30dp"
+            android:layout_marginBottom = "30dp"
+            app:layout_constraintStart_toEndOf="@+id/accounting_button"
+            app:layout_constraintTop_toBottomOf="@+id/general_affairs_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id = "@+id/technical_research_button"
+            android:background="@drawable/department_select_button"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:text="Technical Research"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="16dp"
+            android:gravity="center|left"
+            android:paddingLeft="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop = "30dp"
+            android:layout_marginBottom = "30dp"
+            android:layout_marginRight="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/accounting_button"
+            app:layout_constraintEnd_toStartOf="@+id/human_resources_button"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id = "@+id/human_resources_button"
+            android:background="@drawable/department_select_button"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:text="Human Resources"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="16dp"
+            android:gravity="center|left"
+            android:paddingLeft="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop = "30dp"
+            android:layout_marginBottom = "30dp"
+            app:layout_constraintStart_toEndOf="@+id/technical_research_button"
+            app:layout_constraintTop_toBottomOf="@+id/machinary_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id = "@+id/system_management_button"
+            android:background="@drawable/department_select_button"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:text="System Management"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="16dp"
+            android:gravity="center|left"
+            android:paddingLeft="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop = "30dp"
+            android:layout_marginBottom = "30dp"
+            android:layout_marginRight="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/technical_research_button"
+            app:layout_constraintEnd_toStartOf="@+id/facility_management_button"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id = "@+id/facility_management_button"
+            android:background="@drawable/department_select_button"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:text="Facility Management"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="16dp"
+            android:gravity="center|left"
+            android:paddingLeft="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop = "30dp"
+            android:layout_marginBottom = "30dp"
+            app:layout_constraintStart_toEndOf="@+id/technical_research_button"
+            app:layout_constraintTop_toBottomOf="@+id/human_resources_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
